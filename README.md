@@ -10,6 +10,7 @@
   - [CVE-2022-34962](https://github.com/bypazs/CVE-2022-34962)
   - [CVE-2022-34963](https://github.com/bypazs/CVE-2022-34963)
   - [CVE-2022-42094](https://github.com/bypazs/CVE-2022-42094)
+  - [CVE-2022-42095](https://github.com/bypazs/CVE-2022-42095)
   - [CVE-2022-42096](https://github.com/bypazs/CVE-2022-42096)
   - [CVE-2022-42097](https://github.com/bypazs/CVE-2022-42097)
   - [CVE-2022-42098](https://github.com/bypazs/CVE-2022-42098)
