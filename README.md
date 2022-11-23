@@ -4,7 +4,7 @@
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me 127.0.0.1
 - 👾 My CVE
-  - CVE-2022–32060
+  - [CVE-2022–32060](https://github.com/bypazs/CVE-2022-32060)
   - [CVE-2022-32114](https://github.com/bypazs/CVE-2022-32114)
   - [CVE-2022-34961](https://github.com/bypazs/CVE-2022-34961)
   - [CVE-2022-34962](https://github.com/bypazs/CVE-2022-34962)
