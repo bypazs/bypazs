@@ -14,6 +14,8 @@
   - [CVE-2022-42096](https://github.com/bypazs/CVE-2022-42096)
   - [CVE-2022-42097](https://github.com/bypazs/CVE-2022-42097)
   - [CVE-2022-42098](https://github.com/bypazs/CVE-2022-42098)
+  - [CVE-2023-26982](https://github.com/bypazs/CVE-2023-26982)
+  - [CVE-2023-26984](https://github.com/bypazs/CVE-2023-26984)
 <!---
 bypazs/bypazs is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
