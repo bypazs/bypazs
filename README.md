@@ -3,6 +3,14 @@
 - 🌱 I’m currently learning ethical hacking.
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me 127.0.0.1
+- 🎓 My Certificate
+  - OffSec Certified Professional (OSCP)
+  - EC-Council Certified Ethical Hacker (CEH)
+  - EC-Council Certified Security Specialist (ECSS)
+  - CompTIA PenTest+
+  - CompTIA Security+
+  - CompTIA Security Analytics Professional (CSAP)
+  - CompTIA CySA+
 - 👾 My CVE
   - [CVE-2022–32060](https://github.com/bypazs/CVE-2022-32060)
   - [CVE-2022-32114](https://github.com/bypazs/CVE-2022-32114)
