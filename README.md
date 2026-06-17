@@ -1,12 +1,13 @@
 <!-- ════════════════════════════════════════════════════════════
      bypazs · GitHub profile README
      Drop this file into:  github.com/bypazs/bypazs/README.md
+     Also commit banner.svg to the repo ROOT (used as the header).
      2026 CVEs included: CVE-2026-23959 (Finder) · CVE-2026-22242 (Analyst)
 ════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:00FF41&height=180&section=header&text=%24%20sudo%20-i&fontColor=00FF41&fontSize=60&fontAlignY=35&desc=bypazs%20//%20offensive%20security&descAlignY=58&descSize=18&animation=fadeIn" alt="header" />
+<img width="100%" src="https://raw.githubusercontent.com/bypazs/bypazs/main/banner.svg" alt="bypazs terminal" />
 
 <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=26&duration=3000&pause=900&color=00FF41&center=true&vCenter=true&width=820&height=120&lines=root%40bypazs%3A~%24+whoami;Penetration+Tester+%7C+Offensive+Security;Web+-+Mobile+-+API+-+Network+Pentesting;OSCP+%7C+eWPTX+%7C+14x+CVE+Author;Break+it.+Report+it.+Repeat." alt="typing" />
 
@@ -122,6 +123,18 @@ bypazs@offsec:~$ ./whoami
 <!-- Snake animation — requires the workflow in .github/workflows/snake.yml (see snake.yml).
      Until the Action runs once, this image will be blank. -->
 <img width="98%" src="https://raw.githubusercontent.com/bypazs/bypazs/output/snake.svg" alt="snake eating contributions" />
+
+</div>
+
+---
+
+### `$ ./connect`
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2)](https://linkedin.com/in/thapanarath)
+[![GitHub](https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=FFFFFF)](https://github.com/bypazs)
+[![Advisory DB](https://img.shields.io/badge/GitHub_Advisories-0D1117?style=for-the-badge&logo=github&logoColor=00FF41)](https://github.com/advisories?query=credit%3Abypazs)
 
 </div>
 
