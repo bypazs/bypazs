@@ -12,6 +12,8 @@
   - CompTIA Security Analytics Professional (CSAP)
   - CompTIA CySA+
 - 👾 My CVE
+  - [CVE-2026-23959](https://github.com/advisories/GHSA-fqcv-8859-86x2)
+  - [CVE-2026-22242](https://github.com/advisories/GHSA-ch7p-mpv4-4vg4)
   - [CVE-2023-26984](https://github.com/bypazs/CVE-2023-26984)
   - [CVE-2023-26982](https://github.com/bypazs/CVE-2023-26982)
   - [CVE-2022-42098](https://github.com/bypazs/CVE-2022-42098)
