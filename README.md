@@ -1,149 +1,125 @@
-<!-- ════════════════════════════════════════════════════════════
-     bypazs · GitHub profile README
-     Drop this file into:  github.com/bypazs/bypazs/README.md
-     Also commit banner.svg to the repo ROOT (used as the header).
-     2026 CVEs included: CVE-2026-23959 (Finder) · CVE-2026-22242 (Analyst)
-════════════════════════════════════════════════════════════ -->
-
 <div align="center">
 
-<img width="100%" src="https://raw.githubusercontent.com/bypazs/bypazs/main/banner.svg" alt="bypazs terminal" />
+<img width="100%" src="./banner.svg" alt="bypazs — Offensive Security Engineer" />
 
-<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=26&duration=3000&pause=900&color=00FF41&center=true&vCenter=true&width=820&height=120&lines=root%40bypazs%3A~%24+whoami;Penetration+Tester+%7C+Offensive+Security;Web+-+Mobile+-+API+-+Network+Pentesting;OSCP+%7C+eWPTX+%7C+14x+CVE+Author;Break+it.+Report+it.+Repeat." alt="typing" />
-
-<br/>
-
-<img src="https://komarev.com/ghpvc/?username=bypazs&label=VISITORS&color=00FF41&style=for-the-badge" alt="views" />
-<img src="https://img.shields.io/badge/STATUS-hunting_0--days-00FF41?style=for-the-badge&labelColor=0D1117" alt="status" />
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-thapanarath-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/thapanarath)
+[![GitHub Advisories](https://img.shields.io/badge/GitHub_Advisories-credited-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/advisories?query=credit%3Abypazs)
+[![CVEs](https://img.shields.io/badge/CVEs-14-22C55E?style=flat-square)](https://github.com/advisories?query=credit%3Abypazs)
+[![Open to](https://img.shields.io/badge/Open_to-Pentest_%7C_DevSecOps_roles-38BDF8?style=flat-square)](https://linkedin.com/in/thapanarath)
 
 </div>
 
----
+## 👋 About
 
-### `$ cat ./whoami.txt`
+I'm a **penetration tester and vulnerability researcher** who breaks web, mobile, API and network targets for a living — and writes reports engineers can actually act on.
 
-```bash
-bypazs@offsec:~$ ./whoami
+Every finding I report ends the same way: *how do we stop this from shipping again?* That question is pulling me toward **DevSecOps and platform engineering** — building the pipelines, infrastructure and guardrails where security is a default, not a last-minute audit.
 
-  ┌─[ IDENTITY ]
-  ├─ handle ......: bypazs
-  ├─ role ........: Penetration Tester // Offensive Security
-  ├─ focus .......: Web · Mobile (iOS/Android) · API · Network
-  ├─ method ......: recon → exploit → report → remediate
-  ├─ location ....: 127.0.0.1
-  └─ status ......: hunting the next 0-day
-```
+- 🔍 **Offensive security** — Web · Mobile (iOS/Android) · API · Network · Source-code review
+- 🧪 **Vulnerability research** — 14 CVEs via coordinated disclosure, credited in the GitHub Advisory Database
+- ⚙️ **Building toward** — CI/CD, containers, Kubernetes, Infrastructure as Code, cloud security
 
 ---
 
-### `$ ./arsenal --list`
+## 🛡️ Security Research
 
-![Kali](https://img.shields.io/badge/Kali_Linux-0D1117?style=for-the-badge&logo=kalilinux&logoColor=00FF41)
-![Burp Suite](https://img.shields.io/badge/Burp_Suite-0D1117?style=for-the-badge&logo=burpsuite&logoColor=FF6633)
-![Metasploit](https://img.shields.io/badge/Metasploit-0D1117?style=for-the-badge&logo=metasploit&logoColor=00FF41)
-![Wireshark](https://img.shields.io/badge/Wireshark-0D1117?style=for-the-badge&logo=wireshark&logoColor=1679A7)
-![Frida](https://img.shields.io/badge/Frida-0D1117?style=for-the-badge&logo=frida&logoColor=F95738)
-![Ghidra](https://img.shields.io/badge/Ghidra-0D1117?style=for-the-badge&logo=ghidra&logoColor=00FF41)
-![Python](https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python&logoColor=FFD43B)
-![Bash](https://img.shields.io/badge/Bash-0D1117?style=for-the-badge&logo=gnubash&logoColor=00FF41)
-![Docker](https://img.shields.io/badge/Docker-0D1117?style=for-the-badge&logo=docker&logoColor=2496ED)
-![Linux](https://img.shields.io/badge/Linux-0D1117?style=for-the-badge&logo=linux&logoColor=FCC624)
+Vulnerabilities discovered through open-source research and reported via coordinated disclosure.
 
----
+### 2026 — GitHub Advisory Database
 
-### `$ ./certs --show`
+| CVE | Product | Vulnerability | CVSS | Role |
+|:----|:--------|:--------------|:----:|:----:|
+| [CVE-2026-23959](https://github.com/advisories/GHSA-fqcv-8859-86x2) | CoreShop | Error-based SQL Injection | 6.9 | Finder |
+| [CVE-2026-22242](https://github.com/advisories/GHSA-ch7p-mpv4-4vg4) | CoreShop | Blind SQL Injection | 4.9 | Analyst |
 
-![OSCP](https://img.shields.io/badge/OSCP-0D1117?style=for-the-badge&logo=offensive-security&logoColor=00FF41)
-![eWPTX](https://img.shields.io/badge/eWPTX-0D1117?style=for-the-badge&logo=ine&logoColor=00FF41)
-![CRTA](https://img.shields.io/badge/CRTA-0D1117?style=for-the-badge&logoColor=00FF41)
-![PenTest+](https://img.shields.io/badge/CompTIA_PenTest%2B-0D1117?style=for-the-badge&logo=comptia&logoColor=E2231A)
-![CySA+](https://img.shields.io/badge/CompTIA_CySA%2B-0D1117?style=for-the-badge&logo=comptia&logoColor=E2231A)
-![Security+](https://img.shields.io/badge/CompTIA_Security%2B-0D1117?style=for-the-badge&logo=comptia&logoColor=E2231A)
-![CSAP](https://img.shields.io/badge/CompTIA_CSAP-0D1117?style=for-the-badge&logo=comptia&logoColor=E2231A)
-![SecurityX](https://img.shields.io/badge/CompTIA_SecurityX-0D1117?style=for-the-badge&logo=comptia&logoColor=E2231A)
-![CEH](https://img.shields.io/badge/CEH-0D1117?style=for-the-badge&logo=ec-council&logoColor=00FF41)
-![ECSS](https://img.shields.io/badge/ECSS-0D1117?style=for-the-badge&logo=ec-council&logoColor=00FF41)
-![SAL1](https://img.shields.io/badge/THM_SAL1-0D1117?style=for-the-badge&logo=tryhackme&logoColor=00FF41)
+<details>
+<summary><b>2022 – 2023 — 12 CVEs</b> (click to expand)</summary>
 
----
+<br/>
 
-### `$ ./cve --hall-of-fame`
+| CVE | Product | Vulnerability |
+|:----|:--------|:--------------|
+| [CVE-2023-26984](https://github.com/bypazs/CVE-2023-26984) | Peppermint 0.2.4 | Broken access control (IDOR) in password reset → account takeover |
+| [CVE-2023-26982](https://github.com/bypazs/CVE-2023-26982) | Trudesk 1.2.6 | Stored XSS — ticket tags |
+| [CVE-2022-42098](https://github.com/bypazs/CVE-2022-42098) | KLiK-SocialMediaWebsite 1.0.1 | SQL Injection — `profile.php?id` |
+| [CVE-2022-42097](https://github.com/bypazs/CVE-2022-42097) | Backdrop CMS 1.23.0 | Stored XSS — comments |
+| [CVE-2022-42096](https://github.com/bypazs/CVE-2022-42096) | Backdrop CMS 1.23.0 | Stored XSS — post content |
+| [CVE-2022-42095](https://github.com/bypazs/CVE-2022-42095) | Backdrop CMS 1.23.0 | Stored XSS — page content |
+| [CVE-2022-42094](https://github.com/bypazs/CVE-2022-42094) | Backdrop CMS 1.23.0 | Stored XSS — card content |
+| [CVE-2022-34963](https://github.com/bypazs/CVE-2022-34963) | OSSN 6.3 LTS | Stored XSS — news feed |
+| [CVE-2022-34962](https://github.com/bypazs/CVE-2022-34962) | OSSN 6.3 LTS | Stored XSS — group timeline |
+| [CVE-2022-34961](https://github.com/bypazs/CVE-2022-34961) | OSSN 6.3 LTS | Stored XSS — user timeline |
+| [CVE-2022-32114](https://github.com/bypazs/CVE-2022-32114) | Strapi 4.1.12 | Unrestricted file upload |
+| [CVE-2022-32060](https://github.com/bypazs/CVE-2022-32060) | Snipe-IT 6.0.2 | Arbitrary file upload — branding settings |
 
-> `14` CVEs from open-source vulnerability research & responsible disclosure.
-> Click any badge for the advisory / PoC.
+</details>
 
-**Featured — 2026**
-
-| CVE | Target | Class | CVSS | Credit |
-|:----|:-------|:------|:----:|:------:|
-| [CVE-2026-23959](https://github.com/advisories/GHSA-fqcv-8859-86x2) | CoreShop | Error-based SQL Injection | `6.9` | Finder |
-| [CVE-2026-22242](https://github.com/advisories/GHSA-ch7p-mpv4-4vg4) | CoreShop | Blind SQL Injection | `4.9` | Analyst |
-
-
-<!-- 2026 — newest, credited on GitHub Advisory Database -->
-[![CVE-2026-23959](https://img.shields.io/badge/CVE--2026--23959-%F0%9F%94%A5_NEW-00FF41?style=flat-square&labelColor=0D1117)](https://github.com/advisories/GHSA-fqcv-8859-86x2)
-[![CVE-2026-22242](https://img.shields.io/badge/CVE--2026--22242-%F0%9F%94%A5_NEW-00FF41?style=flat-square&labelColor=0D1117)](https://github.com/advisories/GHSA-ch7p-mpv4-4vg4)
-
-[![CVE-2023-26984](https://img.shields.io/badge/CVE--2023--26984-C81E1E?style=flat-square&labelColor=0D1117)](https://github.com/bypazs/CVE-2023-26984)
-[![CVE-2023-26982](https://img.shields.io/badge/CVE--2023--26982-C81E1E?style=flat-square&labelColor=0D1117)](https://github.com/bypazs/CVE-2023-26982)
-[![CVE-2022-42098](https://img.shields.io/badge/CVE--2022--42098-C81E1E?style=flat-square&labelColor=0D1117)](https://github.com/bypazs/CVE-2022-42098)
-[![CVE-2022-42097](https://img.shields.io/badge/CVE--2022--42097-C81E1E?style=flat-square&labelColor=0D1117)](https://github.com/bypazs/CVE-2022-42097)
-[![CVE-2022-42096](https://img.shields.io/badge/CVE--2022--42096-C81E1E?style=flat-square&labelColor=0D1117)](https://github.com/bypazs/CVE-2022-42096)
-[![CVE-2022-42095](https://img.shields.io/badge/CVE--2022--42095-C81E1E?style=flat-square&labelColor=0D1117)](https://github.com/bypazs/CVE-2022-42095)
-[![CVE-2022-42094](https://img.shields.io/badge/CVE--2022--42094-C81E1E?style=flat-square&labelColor=0D1117)](https://github.com/bypazs/CVE-2022-42094)
-[![CVE-2022-34963](https://img.shields.io/badge/CVE--2022--34963-C81E1E?style=flat-square&labelColor=0D1117)](https://github.com/bypazs/CVE-2022-34963)
-[![CVE-2022-34962](https://img.shields.io/badge/CVE--2022--34962-C81E1E?style=flat-square&labelColor=0D1117)](https://github.com/bypazs/CVE-2022-34962)
-[![CVE-2022-34961](https://img.shields.io/badge/CVE--2022--34961-C81E1E?style=flat-square&labelColor=0D1117)](https://github.com/bypazs/CVE-2022-34961)
-[![CVE-2022-32114](https://img.shields.io/badge/CVE--2022--32114-C81E1E?style=flat-square&labelColor=0D1117)](https://github.com/bypazs/CVE-2022-32114)
-[![CVE-2022-32060](https://img.shields.io/badge/CVE--2022--32060-C81E1E?style=flat-square&labelColor=0D1117)](https://github.com/bypazs/CVE-2022-32060)
+**By class:** SQL Injection ×3 · Stored XSS ×8 · File Upload ×2 · Broken Access Control ×1
 
 ---
 
-### `$ ./stats --render`
+## 🎓 Certifications
+
+| Track | Certifications |
+|:------|:---------------|
+| **Offensive** | ![OSCP](https://img.shields.io/badge/OSCP-OffSec-111827?style=flat-square) ![eWPTX](https://img.shields.io/badge/eWPTX-INE-111827?style=flat-square) ![CRTA](https://img.shields.io/badge/CRTA-CyberWarFare_Labs-111827?style=flat-square) ![PenTest+](https://img.shields.io/badge/PenTest%2B-CompTIA-111827?style=flat-square) ![CEH](https://img.shields.io/badge/CEH-EC--Council-111827?style=flat-square) |
+| **Defensive & Architecture** | ![SecurityX](https://img.shields.io/badge/SecurityX-CompTIA-111827?style=flat-square) ![CySA+](https://img.shields.io/badge/CySA%2B-CompTIA-111827?style=flat-square) ![CSAP](https://img.shields.io/badge/CSAP-CompTIA-111827?style=flat-square) ![SAL1](https://img.shields.io/badge/SAL1-TryHackMe-111827?style=flat-square) |
+| **Foundation** | ![Security+](https://img.shields.io/badge/Security%2B-CompTIA-111827?style=flat-square) ![ECSS](https://img.shields.io/badge/ECSS-EC--Council-111827?style=flat-square) |
+
+---
+
+## 🧰 Toolbox
+
+### Offensive Security
+
+![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=flat-square&logo=burpsuite&logoColor=white)
+![Metasploit](https://img.shields.io/badge/Metasploit-2596CD?style=flat-square&logo=metasploit&logoColor=white)
+![Nmap](https://img.shields.io/badge/Nmap-4682B4?style=flat-square)
+![Frida](https://img.shields.io/badge/Frida-EF6456?style=flat-square)
+![Ghidra](https://img.shields.io/badge/Ghidra-8B0000?style=flat-square)
+![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
+![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=flat-square&logo=kalilinux&logoColor=white)
+
+### Scripting & Automation
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+
+### DevOps & Cloud — *currently building*
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
+
+---
+
+## 🗺️ Roadmap: Pentest → DevSecOps
+
+- [x] Offensive foundation — OSCP, eWPTX, 14 CVEs
+- [x] Scripting — Python & Bash for recon and reporting workflows
+- [ ] Containers — Docker hardening, image scanning (Trivy)
+- [ ] CI/CD security — SAST / DAST / secret scanning in GitHub Actions
+- [ ] Kubernetes — workload security, RBAC, admission policies
+- [ ] Infrastructure as Code — Terraform with policy-as-code (Checkov / OPA)
+- [ ] Cloud — AWS security & architecture certification
+
+---
+
+## 📊 GitHub Activity
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=bypazs&show_icons=true&hide_border=true&count_private=true&title_color=00FF41&icon_color=00FF41&text_color=C9D1D9&bg_color=0D1117" alt="stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bypazs&layout=compact&hide_border=true&langs_count=8&title_color=00FF41&text_color=C9D1D9&bg_color=0D1117" alt="langs" />
-
-<br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=bypazs&hide_border=true&background=0D1117&stroke=00FF41&ring=00FF41&fire=00FF41&currStreakLabel=00FF41&sideLabels=C9D1D9&dates=8B949E&currStreakNum=C9D1D9&sideNums=C9D1D9" alt="streak" />
-
-<br/>
-
-<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=bypazs&bg_color=0D1117&color=00FF41&line=00FF41&point=FFFFFF&area=true&hide_border=true&custom_title=Contribution%20Activity" alt="activity graph" />
-
-<br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=bypazs&theme=matrix&no-frame=true&no-bg=true&column=7&margin-w=4" alt="trophies" />
-
-<br/><br/>
-
-<!-- Snake animation — requires the workflow in .github/workflows/snake.yml (see snake.yml).
-     Until the Action runs once, this image will be blank. -->
-<img width="98%" src="https://raw.githubusercontent.com/bypazs/bypazs/output/snake.svg" alt="snake eating contributions" />
-
-</div>
-
----
-
-### `$ ./connect`
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2)](https://linkedin.com/in/thapanarath)
-[![GitHub](https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=FFFFFF)](https://github.com/bypazs)
-[![Advisory DB](https://img.shields.io/badge/GitHub_Advisories-0D1117?style=for-the-badge&logo=github&logoColor=00FF41)](https://github.com/advisories?query=credit%3Abypazs)
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=bypazs&show_icons=true&hide_border=true&hide_rank=true&count_private=true&title_color=22C55E&icon_color=38BDF8&text_color=C9D1D9&bg_color=0D1117" alt="GitHub stats" />
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bypazs&layout=compact&hide_border=true&langs_count=6&title_color=22C55E&text_color=C9D1D9&bg_color=0D1117" alt="Top languages" />
 
 </div>
 
 ---
 
 <div align="center">
-
-<i>“There is no patch for human curiosity.”</i>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00FF41,100:000000&height=120&section=footer" alt="footer" />
-
+<sub>All vulnerabilities were reported to maintainers through coordinated disclosure.</sub>
 </div>
