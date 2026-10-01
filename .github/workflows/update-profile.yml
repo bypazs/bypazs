@@ -1,0 +1,63 @@
+name: Update profile
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "data/cves.yml"
+      - "scripts/render.py"
+      - "README.md"
+      - "banner*.svg"
+      - ".github/workflows/update-profile.yml"
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  render:
+    name: Render & commit
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: pip install pyyaml==6.0.2
+      - name: Validate data & check output (pull requests)
+        if: github.event_name == 'pull_request'
+        run: python scripts/render.py --check
+      - name: Render
+        if: github.event_name != 'pull_request'
+        run: python scripts/render.py
+      - name: Commit changes
+        if: github.event_name != 'pull_request'
+        run: |
+          if git diff --quiet; then
+            echo "Nothing to update."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "chore: render profile from data/cves.yml"
+          git push
+
+  lint:
+    name: Markdown lint
+    needs: render
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: DavidAnson/markdownlint-cli2-action@v19
+        with:
+          globs: README.md
