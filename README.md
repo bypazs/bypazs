@@ -15,15 +15,15 @@ I'm a **penetration tester and vulnerability researcher** who breaks web, mobile
 
 Every finding I report ends the same way: *how do we stop this from shipping again?* That question is pulling me toward **DevSecOps and platform engineering** — building the pipelines, infrastructure and guardrails where security is a default, not a last-minute audit.
 
-- 🔍 **Offensive security** — Web · Mobile (iOS/Android) · API · Network · Source-code review
-- 🧪 **Vulnerability research** — 14 CVEs via coordinated disclosure, credited in the GitHub Advisory Database
+- 🔍 **Offensive security** — Web · Mobile (iOS/Android) · API · Network
+- 🧪 **Vulnerability research** — 14 published CVEs in open-source web applications
 - ⚙️ **Building toward** — CI/CD, containers, Kubernetes, Infrastructure as Code, cloud security
 
 ---
 
 ## 🛡️ Security Research
 
-Vulnerabilities discovered through open-source research and reported via coordinated disclosure.
+Vulnerabilities found through open-source security research.
 
 ### 2026 — GitHub Advisory Database
 
@@ -121,5 +121,5 @@ Vulnerabilities discovered through open-source research and reported via coordin
 ---
 
 <div align="center">
-<sub>All vulnerabilities were reported to maintainers through coordinated disclosure.</sub>
+<sub>Research performed for defensive purposes. PoC write-ups are linked for each CVE.</sub>
 </div>
