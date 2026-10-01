@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-labelledby="t d">
+  <title id="t">bypazs — Offensive Security Engineer</title>
+  <desc id="d">Penetration testing, vulnerability research and secure delivery pipelines. 14 CVEs, OSCP, eWPTX.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F8FAFC"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22C55E"/>
+      <stop offset="1" stop-color="#38BDF8"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#E5E7EB" stroke-width="1"/>
+    </pattern>
+    <style>
+      .sans { font-family: 'Inter','Segoe UI',Helvetica,Arial,sans-serif; }
+      .mono { font-family: 'JetBrains Mono','Fira Code',Consolas,monospace; }
+      .cur  { animation: blink 1.1s steps(1) infinite; }
+      @keyframes blink { 50% { opacity: 0; } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="300" rx="16" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="16" fill="url(#grid)" opacity="0.7"/>
+  <rect x="0" y="0" width="1200" height="4" fill="url(#accent)"/>
+
+  <!-- left: identity -->
+  <text x="64" y="104" class="mono" font-size="18" fill="#16A34A">~/bypazs $ whoami</text>
+  <text x="64" y="166" class="sans" font-size="56" font-weight="800" fill="#0F172A">bypazs</text>
+  <text x="64" y="208" class="sans" font-size="24" font-weight="600" fill="#334155">Offensive Security Engineer</text>
+  <text x="64" y="244" class="sans" font-size="18" fill="#64748B">Penetration Testing  ·  Vulnerability Research  ·  DevSecOps</text>
+  <rect class="cur" x="248" y="88" width="10" height="20" fill="#22C55E"/>
+
+  <!-- right: proof points -->
+  <g class="sans" text-anchor="middle">
+    <rect x="760" y="86"  width="160" height="128" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <text id="cve-count" x="840" y="150" font-size="44" font-weight="800" fill="#16A34A">14</text>
+    <text x="840" y="186" font-size="15" fill="#64748B">published CVEs</text>
+
+    <rect x="940" y="86"  width="196" height="58" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <text x="1038" y="122" font-size="18" font-weight="700" fill="#0F172A">OSCP · eWPTX</text>
+
+    <rect x="940" y="156" width="196" height="58" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <text x="1038" y="192" font-size="14" font-weight="600" fill="#0284C7">Security → DevSecOps</text>
+  </g>
+</svg>

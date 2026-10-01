@@ -1,0 +1,103 @@
+# Single source of truth for the "Security Research" section.
+# Add a new CVE here and push — the "Update profile" workflow rebuilds
+# the README tables, the CVE counts and both banners automatically.
+#
+# Fields
+#   id       CVE ID (required)
+#   url      advisory or PoC link (required)
+#   product  product + version (required)
+#   class    vulnerability class, used for the "By class" summary (required)
+#   detail   short description shown in the table (required)
+#   featured true = shown in the top table with CVSS and role
+#   cvss     CVSS score (featured only)
+#   role     your credit on the advisory, e.g. Finder / Analyst (featured only)
+
+- id: CVE-2026-23959
+  url: https://github.com/advisories/GHSA-fqcv-8859-86x2
+  product: CoreShop
+  class: SQL Injection
+  detail: Error-based SQL Injection
+  featured: true
+  cvss: 6.9
+  role: Finder
+
+- id: CVE-2026-22242
+  url: https://github.com/advisories/GHSA-ch7p-mpv4-4vg4
+  product: CoreShop
+  class: SQL Injection
+  detail: Blind SQL Injection
+  featured: true
+  cvss: 4.9
+  role: Analyst
+
+- id: CVE-2023-26984
+  url: https://github.com/bypazs/CVE-2023-26984
+  product: Peppermint 0.2.4
+  class: Broken Access Control
+  detail: Broken access control (IDOR) in password reset → account takeover
+
+- id: CVE-2023-26982
+  url: https://github.com/bypazs/CVE-2023-26982
+  product: Trudesk 1.2.6
+  class: Stored XSS
+  detail: Stored XSS — ticket tags
+
+- id: CVE-2022-42098
+  url: https://github.com/bypazs/CVE-2022-42098
+  product: KLiK-SocialMediaWebsite 1.0.1
+  class: SQL Injection
+  detail: SQL Injection — `profile.php?id`
+
+- id: CVE-2022-42097
+  url: https://github.com/bypazs/CVE-2022-42097
+  product: Backdrop CMS 1.23.0
+  class: Stored XSS
+  detail: Stored XSS — comments
+
+- id: CVE-2022-42096
+  url: https://github.com/bypazs/CVE-2022-42096
+  product: Backdrop CMS 1.23.0
+  class: Stored XSS
+  detail: Stored XSS — post content
+
+- id: CVE-2022-42095
+  url: https://github.com/bypazs/CVE-2022-42095
+  product: Backdrop CMS 1.23.0
+  class: Stored XSS
+  detail: Stored XSS — page content
+
+- id: CVE-2022-42094
+  url: https://github.com/bypazs/CVE-2022-42094
+  product: Backdrop CMS 1.23.0
+  class: Stored XSS
+  detail: Stored XSS — card content
+
+- id: CVE-2022-34963
+  url: https://github.com/bypazs/CVE-2022-34963
+  product: OSSN 6.3 LTS
+  class: Stored XSS
+  detail: Stored XSS — news feed
+
+- id: CVE-2022-34962
+  url: https://github.com/bypazs/CVE-2022-34962
+  product: OSSN 6.3 LTS
+  class: Stored XSS
+  detail: Stored XSS — group timeline
+
+- id: CVE-2022-34961
+  url: https://github.com/bypazs/CVE-2022-34961
+  product: OSSN 6.3 LTS
+  class: Stored XSS
+  detail: Stored XSS — user timeline
+
+- id: CVE-2022-32114
+  url: https://github.com/bypazs/CVE-2022-32114
+  product: Strapi 4.1.12
+  class: File Upload
+  detail: Unrestricted file upload
+
+- id: CVE-2022-32060
+  url: https://github.com/bypazs/CVE-2022-32060
+  product: Snipe-IT 6.0.2
+  class: File Upload
+  detail: Arbitrary file upload — branding settings

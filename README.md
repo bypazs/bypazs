@@ -1,6 +1,15 @@
+<!--
+  👀 recon complete? decode me (base64):
+  ZmxhZ3t5MHVfcjM0ZF90aDNfczB1cmMzfSAtIE5pY2UgcmVjb24uIFNheSBoaSBvbiBMaW5rZWRJbiB3aXRoIHRoaXMgZmxhZy4=
+-->
+
 <div align="center">
 
-<img width="100%" src="./banner.svg" alt="bypazs — Offensive Security Engineer" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./banner.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./banner-light.svg" />
+  <img width="100%" src="./banner.svg" alt="bypazs — Offensive Security Engineer" />
+</picture>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-thapanarath-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/thapanarath)
 [![GitHub Advisories](https://img.shields.io/badge/GitHub_Advisories-credited-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/advisories?query=credit%3Abypazs)
@@ -25,7 +34,9 @@ Every finding I report ends the same way: *how do we stop this from shipping aga
 
 Vulnerabilities found through open-source security research.
 
-### 2026 — GitHub Advisory Database
+<!-- cve:start -->
+
+### Featured
 
 | CVE | Product | Vulnerability | CVSS | Role |
 |:----|:--------|:--------------|:----:|:----:|
@@ -54,7 +65,9 @@ Vulnerabilities found through open-source security research.
 
 </details>
 
-**By class:** SQL Injection ×3 · Stored XSS ×8 · File Upload ×2 · Broken Access Control ×1
+**By class:** Stored XSS ×8 · SQL Injection ×3 · File Upload ×2 · Broken Access Control ×1
+
+<!-- cve:end -->
 
 ---
 
@@ -122,4 +135,6 @@ Vulnerabilities found through open-source security research.
 
 <div align="center">
 <sub>Research performed for defensive purposes. PoC write-ups are linked for each CVE.</sub>
+<br/>
+<sub><code>// there is more here than meets the eye — view the source</code></sub>
 </div>
