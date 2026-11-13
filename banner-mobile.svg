@@ -1,14 +1,49 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300" role="img" aria-labelledby="t d">
-  <title id="t">bypazs — Application Security, Penetration Testing and DevSecOps</title>
-  <desc id="d">Application security and penetration testing; building toward DevSecOps. Research contributions to 14 published CVEs. OSCP, eWPTX.</desc>
-  <rect width="600" height="300" rx="16" fill="#0B0F17"/>
-  <rect width="600" height="5" fill="#22C55E"/>
-  <g font-family="'Segoe UI',Helvetica,Arial,sans-serif">
-    <text x="32" y="49" font-family="Consolas,monospace" font-size="20" fill="#22C55E">~/bypazs $ whoami</text>
-    <text x="32" y="111" font-size="56" font-weight="800" fill="#F9FAFB">bypazs</text>
-    <text x="32" y="158" font-size="26" font-weight="600" fill="#F9FAFB">Application Security · Penetration Testing</text>
-    <text x="32" y="199" font-size="26" fill="#CBD5E1">Building toward DevSecOps</text>
-    <text id="cve-count" x="32" y="260" font-size="24" font-weight="700" fill="#22C55E">14</text>
-    <text x="70" y="260" font-size="23" fill="#CBD5E1">CVE contributions · OSCP · eWPTX</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="620" viewBox="0 0 720 620" role="img" aria-labelledby="title desc">
+  <title id="title">bypazs — Application Security, Penetration Testing and DevSecOps</title>
+  <desc id="desc">Cyber terminal banner for bypazs. Application security and penetration testing; building toward DevSecOps. Research contributions to 14 published CVEs. OSCP, eWPTX.</desc>
+  <defs>
+    <radialGradient id="ambient"><stop stop-color="#147B82" stop-opacity=".24"/><stop offset="1" stop-color="#050B10" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#1A3842" stroke-opacity=".33"/></pattern>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><path d="M0 1H4" stroke="#ECF8F6" stroke-opacity=".018"/></pattern>
+    <clipPath id="frame"><rect x="1" y="1" width="718" height="618" rx="18"/></clipPath>
+    <style>.sans{font-family:Arial,Helvetica,sans-serif}.mono{font-family:'DejaVu Sans Mono',Consolas,monospace}</style>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="720" height="620" fill="#050B10"/>
+    <rect width="720" height="620" fill="url(#grid)"/>
+    <ellipse cx="650" cy="70" rx="260" ry="260" fill="url(#ambient)"/>
+    <rect width="720" height="620" fill="url(#scan)"/>
+    <path d="M0 1H720" stroke="#1B333D"/>
+    <path d="M44 1H148" stroke="#B8FF65" stroke-width="4"/>
+    <path d="M17 45V17H45M675 17H703V45M17 575V603H45M675 603H703V575" fill="none" stroke="#50717D" stroke-opacity=".65"/>
+    
+    <g transform="translate(590 111) scale(0.4)" fill="none">
+  <circle r="156" stroke="#1B333D" stroke-dasharray="2 9"/>
+  <circle r="139" stroke="#53DDEA" stroke-opacity=".26" stroke-dasharray="80 15 3 15 18 42" transform="rotate(-28)"/>
+  <path d="M-80-112H80L112-80V80L80 112H-80L-112 80V-80Z" fill="#0A151C" stroke="#53DDEA" stroke-opacity=".55"/>
+  <path d="M-72-99H72L99-72V72L72 99H-72L-99 72V-72Z" stroke="#1B333D"/>
+  <path d="M-80-112H-18M112-48V-80L80-112M80 112H20M-112 48V80L-80 112" stroke="#B8FF65" stroke-width="4"/>
+  <path d="M0-77L77 0L0 77L-77 0Z" stroke="#53DDEA" stroke-opacity=".38"/>
+  <rect x="-43" y="-43" width="86" height="86" rx="12" fill="#050B10" stroke="#53DDEA"/>
+  <path d="M-24-16L-7 0L-24 16M4 18H25" stroke="#B8FF65" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter"/>
+  <path d="M-112-56H-166L-204-94H-260M-112 0H-190L-226 36H-280M-112 56H-153L-192 95H-244M112-56H167L200-89H242M112 0H204M112 56H151L188 93H250" stroke="#53DDEA" stroke-opacity=".48" stroke-width="1.5"/>
+  <path d="M-56-112V-145L-92-181M0-112V-171M56-112V-146L91-181M-56 112V153L-78 175M0 112V168M56 112V146L85 175" stroke="#1B333D" stroke-width="1.5"/>
+  <g fill="#53DDEA"><circle cx="-260" cy="-94" r="3"/><circle cx="-280" cy="36" r="3"/><circle cx="-244" cy="95" r="3"/><circle cx="242" cy="-89" r="3"/><circle cx="204" cy="0" r="3"/><circle cx="250" cy="93" r="3"/></g>
+  <g stroke="#50717D" stroke-width="1"><path d="M-163-119h12m-6-6v12M166 125h12m-6-6v12M178-136h8m-4-4v8M-178 137h8m-4-4v8"/></g>
+</g>
+  <text x="43" y="112" class="mono" font-size="21" fill="#94B4BB"><tspan fill="#B8FF65">~/bypazs</tspan> $ whoami</text>
+  <text x="36" y="258" class="sans" font-size="136" font-weight="800" letter-spacing="-8" fill="#ECF8F6">bypazs<tspan fill="#B8FF65">.</tspan></text>
+  <path d="M45 286H153M163 286H177" stroke="#B8FF65" stroke-width="4"/>
+  <text x="44" y="342" class="sans" font-size="32" font-weight="500" fill="#94B4BB">Application Security</text>
+  <text x="44" y="387" class="sans" font-size="32" font-weight="500" fill="#94B4BB">Penetration Testing</text>
+  <text x="44" y="445" class="mono" font-size="20" fill="#53DDEA">BUILDING TOWARD DEVSECOPS</text>
+  <path d="M44 482H676" stroke="#1B333D"/>
+  <rect x="44" y="481" width="58" height="2" fill="#B8FF65"/>
+  <text id="cve-count" x="44" y="556" class="sans" font-size="48" font-weight="700" fill="#B8FF65">14</text>
+  <text x="121" y="532" class="mono" font-size="16" fill="#94B4BB">CVE</text>
+  <text x="121" y="556" class="mono" font-size="16" fill="#94B4BB">CONTRIBUTIONS</text>
+  <path d="M330 511V563" stroke="#1B333D"/>
+  <text x="368" y="551" class="sans" font-size="29" font-weight="600" fill="#ECF8F6">OSCP · eWPTX</text>
   </g>
+  <rect x=".5" y=".5" width="719" height="619" rx="18" fill="none" stroke="#1B333D"/>
 </svg>
