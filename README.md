@@ -14,7 +14,7 @@
 </picture>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-thapanarath-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/thapanarath)
-[![CVEs](https://img.shields.io/badge/CVEs-14-22C55E?style=flat-square)](#-security-research)
+[![CVEs](https://img.shields.io/badge/CVEs-14-22C55E?style=flat-square)](#security-research)
 [![Open to](https://img.shields.io/badge/Open_to-AppSec_%7C_Pentest_%7C_DevSecOps-38BDF8?style=flat-square)](https://linkedin.com/in/thapanarath)
 
 </div>
@@ -61,7 +61,7 @@ Private project summaries describe their current scope and status; they do not p
 
 ---
 
-## 🛡️ Security Research
+## Security Research
 
 Contributions to published open-source vulnerability research. Featured advisories distinguish Finder and Analyst credits.
 
@@ -104,7 +104,7 @@ Contributions to published open-source vulnerability research. Featured advisori
 
 ## 🎓 Certifications
 
-**Highlights: OSCP · eWPTX**
+Primary credentials: **OSCP · eWPTX**.
 
 | Track | Certifications |
 |:------|:---------------|
