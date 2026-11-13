@@ -6,33 +6,64 @@
 <div align="center">
 
 <picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./banner-mobile.svg" />
+  <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="./banner-mobile-light.svg" />
   <source media="(prefers-color-scheme: dark)" srcset="./banner.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./banner-light.svg" />
-  <img width="100%" src="./banner.svg" alt="bypazs — Offensive Security Engineer" />
+  <img width="100%" src="./banner.svg" alt="bypazs — Application Security · Penetration Testing · DevSecOps" />
 </picture>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-thapanarath-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/thapanarath)
-[![GitHub Advisories](https://img.shields.io/badge/GitHub_Advisories-credited-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/advisories?query=credit%3Abypazs)
-[![CVEs](https://img.shields.io/badge/CVEs-14-22C55E?style=flat-square)](https://github.com/advisories?query=credit%3Abypazs)
-[![Open to](https://img.shields.io/badge/Open_to-Pentest_%7C_DevSecOps_roles-38BDF8?style=flat-square)](https://linkedin.com/in/thapanarath)
+[![CVEs](https://img.shields.io/badge/CVEs-14-22C55E?style=flat-square)](#security-research)
+[![Open to](https://img.shields.io/badge/Open_to-AppSec_%7C_Pentest_%7C_DevSecOps-38BDF8?style=flat-square)](https://linkedin.com/in/thapanarath)
 
 </div>
 
 ## 👋 About
 
-I'm a **penetration tester and vulnerability researcher** who breaks web, mobile, API and network targets for a living — and writes reports engineers can actually act on.
+I'm a **penetration tester and application security professional with 6 years of cybersecurity experience**, including assessments for banking and enterprise clients. My work spans web, mobile, API and network security, vulnerability management, and collaboration with development teams on remediation and retesting.
 
-Every finding I report ends the same way: *how do we stop this from shipping again?* That question is pulling me toward **DevSecOps and platform engineering** — building the pipelines, infrastructure and guardrails where security is a default, not a last-minute audit.
+I'm moving toward **DevSecOps**, bringing an attacker's perspective into secure development and delivery. I'm building practical experience with containers, CI/CD and security automation, alongside my professional security work.
 
-- 🔍 **Offensive security** — Web · Mobile (iOS/Android) · API · Network
-- 🧪 **Vulnerability research** — 14 published CVEs in open-source web applications
-- ⚙️ **Building toward** — CI/CD, containers, Kubernetes, Infrastructure as Code, cloud security
+- **Security research** — contributions across 14 published CVEs, with Finder and Analyst roles identified below.
+- **Engineering focus** — reproducible findings, actionable remediation, and reviewable automation.
+- **Based in Thailand** — interested in Application Security, Penetration Testing and DevSecOps opportunities.
 
 ---
 
-## 🛡️ Security Research
+## 🛠️ Featured Projects
 
-Vulnerabilities found through open-source security research.
+### Profile Automation — public
+
+A small, inspectable example of Python automation and GitHub Actions: CVE records in YAML generate the research tables and counters in this profile.
+
+- **Implemented:** data validation, generated Markdown and SVG counters, a CI freshness check, and Markdown linting.
+- **Evidence:** [renderer](scripts/render.py) · [CVE data](data/cves.yml) · [workflow](.github/workflows/update-profile.yml).
+- **Scope:** profile maintenance automation; my broader CI/CD security learning continues below.
+
+### AI Development Template — private · tooling and workflow design
+
+A reusable starter kit for AI-assisted development, with documented implementation/review responsibilities, task handoffs, security checks and stack-specific guidance.
+
+- **Implemented in the repository:** workflow documents, a staged bootstrap script that preserves existing files, and a structural verification script.
+- **Design focus:** keeping changes reviewable and adapting the template to each project's existing rules.
+- **Status:** private toolkit; v0.3 orchestration guidance is a proposal. Adoption and validation are tracked separately for each project.
+
+### AI Bug Bounty Hunter — private · planning
+
+A personal security research tooling project for authorized bug bounty work and open-source research in disposable, owned labs.
+
+- **Designed so far:** authorization boundaries, benchmark-based tool selection and a human review workflow.
+- **Next milestone:** evaluate candidate tools against a reproducible lab benchmark before choosing the implementation.
+- **Status:** planning / Week 1. A working scanner and validated research results are future milestones.
+
+Private project summaries describe their current scope and status; they do not provide publicly inspectable implementation evidence.
+
+---
+
+## Security Research
+
+Contributions to published open-source vulnerability research. Featured advisories distinguish Finder and Analyst credits.
 
 <!-- cve:start -->
 
@@ -73,68 +104,59 @@ Vulnerabilities found through open-source security research.
 
 ## 🎓 Certifications
 
+Primary credentials: **OSCP · eWPTX**.
+
 | Track | Certifications |
 |:------|:---------------|
-| **Offensive** | ![OSCP](https://img.shields.io/badge/OSCP-OffSec-111827?style=flat-square) ![eWPTX](https://img.shields.io/badge/eWPTX-INE-111827?style=flat-square) ![CRTA](https://img.shields.io/badge/CRTA-CyberWarFare_Labs-111827?style=flat-square) ![PenTest+](https://img.shields.io/badge/PenTest%2B-CompTIA-111827?style=flat-square) ![CEH](https://img.shields.io/badge/CEH-EC--Council-111827?style=flat-square) |
-| **Defensive & Architecture** | ![SecurityX](https://img.shields.io/badge/SecurityX-CompTIA-111827?style=flat-square) ![CySA+](https://img.shields.io/badge/CySA%2B-CompTIA-111827?style=flat-square) ![CSAP](https://img.shields.io/badge/CSAP-CompTIA-111827?style=flat-square) ![SAL1](https://img.shields.io/badge/SAL1-TryHackMe-111827?style=flat-square) |
-| **Foundation** | ![Security+](https://img.shields.io/badge/Security%2B-CompTIA-111827?style=flat-square) ![ECSS](https://img.shields.io/badge/ECSS-EC--Council-111827?style=flat-square) |
+| **Offensive** | OSCP · eWPTX · CRTA · PenTest+ · CEH |
+| **Defensive & Architecture** | SecurityX · CySA+ · SAL1 |
+| **Foundation** | Security+ · ECSS |
+| **Stackable** | CSAP — CompTIA Security Analytics Professional |
 
 ---
 
-## 🧰 Toolbox
+## 🧰 Skills & Hands-on Practice
 
-### Offensive Security
+| Experience | Focus |
+|:-----------|:------|
+| **Professional security work** | Web, mobile, API and network penetration testing; application security; vulnerability management; remediation and retesting |
+| **Security toolkit** | Burp Suite · Metasploit · Nmap · Frida · Ghidra · Wireshark · Kali Linux |
+| **Scripting & automation** | Python · Bash · Linux; security and reporting workflows |
+| **Hands-on labs & small projects** | Git · Docker fundamentals · GitHub Actions; experiments with NodeJSScan, Bandit, Trivy, SonarQube and OWASP ZAP |
+| **Currently learning / planned** | GitLab CI/CD · Kubernetes · Terraform · cloud security, including AWS |
 
-![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=flat-square&logo=burpsuite&logoColor=white)
-![Metasploit](https://img.shields.io/badge/Metasploit-2596CD?style=flat-square&logo=metasploit&logoColor=white)
-![Nmap](https://img.shields.io/badge/Nmap-4682B4?style=flat-square)
-![Frida](https://img.shields.io/badge/Frida-EF6456?style=flat-square)
-![Ghidra](https://img.shields.io/badge/Ghidra-8B0000?style=flat-square)
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
-![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=flat-square&logo=kalilinux&logoColor=white)
-
-### Scripting & Automation
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-
-### DevOps & Cloud — *currently building*
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
+Lab experience is separate from production infrastructure ownership. Project links above show the work that is publicly inspectable.
 
 ---
 
 ## 🗺️ Roadmap: Pentest → DevSecOps
 
-- [x] Offensive foundation — OSCP, eWPTX, 14 CVEs
-- [x] Scripting — Python & Bash for recon and reporting workflows
-- [ ] Containers — Docker hardening, image scanning (Trivy)
-- [ ] CI/CD security — SAST / DAST / secret scanning in GitHub Actions
-- [ ] Kubernetes — workload security, RBAC, admission policies
-- [ ] Infrastructure as Code — Terraform with policy-as-code (Checkov / OPA)
-- [ ] Cloud — AWS security & architecture certification
+- [x] Offensive security foundation — professional assessments, OSCP and eWPTX
+- [x] Python automation — data-driven profile generation with a CI freshness check
+- [ ] Containers — Docker hardening and repeatable image scanning
+- [ ] CI/CD security — a documented pipeline with SAST, DAST and secret scanning
+- [ ] Kubernetes — workload security, RBAC and admission policies
+- [ ] Infrastructure as Code — Terraform and policy checks
+- [ ] Cloud — AWS security fundamentals and practical labs
 
 ---
 
-## 📊 GitHub Activity
+<details>
+<summary><b>📊 GitHub Activity</b></summary>
 
 <div align="center">
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=bypazs&show_icons=true&hide_border=true&hide_rank=true&count_private=true&title_color=22C55E&icon_color=38BDF8&text_color=C9D1D9&bg_color=0D1117" alt="GitHub stats" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bypazs&layout=compact&hide_border=true&langs_count=6&title_color=22C55E&text_color=C9D1D9&bg_color=0D1117" alt="Top languages" />
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=bypazs&show_icons=true&hide_border=true&hide_rank=true&title_color=22C55E&icon_color=38BDF8&text_color=C9D1D9&bg_color=0D1117" alt="GitHub activity statistics" />
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bypazs&layout=compact&hide_border=true&langs_count=6&title_color=22C55E&text_color=C9D1D9&bg_color=0D1117" alt="Languages across public repositories" />
 
 </div>
 
+</details>
+
 ---
 
 <div align="center">
-<sub>Research performed for defensive purposes. PoC write-ups are linked for each CVE.</sub>
+<sub>Research performed for defensive purposes. Advisory and PoC links are listed above.</sub>
 <br/>
 <sub><code>// there is more here than meets the eye — view the source</code></sub>
 </div>

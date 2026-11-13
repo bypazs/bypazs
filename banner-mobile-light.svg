@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300" role="img" aria-labelledby="t d">
+  <title id="t">bypazs — Application Security, Penetration Testing and DevSecOps</title>
+  <desc id="d">Application security and penetration testing; building toward DevSecOps. Research contributions to 14 published CVEs. OSCP, eWPTX.</desc>
+  <rect width="600" height="300" rx="16" fill="#FFFFFF"/>
+  <rect width="600" height="5" fill="#15803D"/>
+  <g font-family="'Segoe UI',Helvetica,Arial,sans-serif">
+    <text x="32" y="49" font-family="Consolas,monospace" font-size="20" fill="#15803D">~/bypazs $ whoami</text>
+    <text x="32" y="111" font-size="56" font-weight="800" fill="#0F172A">bypazs</text>
+    <text x="32" y="158" font-size="26" font-weight="600" fill="#0F172A">Application Security · Penetration Testing</text>
+    <text x="32" y="199" font-size="26" fill="#475569">Building toward DevSecOps</text>
+    <text id="cve-count" x="32" y="260" font-size="24" font-weight="700" fill="#15803D">14</text>
+    <text x="70" y="260" font-size="23" fill="#475569">CVE contributions · OSCP · eWPTX</text>
+  </g>
+</svg>
