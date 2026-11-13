@@ -17,7 +17,7 @@ import yaml
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data" / "cves.yml"
 README = ROOT / "README.md"
-BANNERS = [ROOT / "banner.svg", ROOT / "banner-light.svg"]
+BANNERS = sorted(ROOT.glob("banner*.svg"))
 
 REQUIRED = ("id", "url", "product", "class", "detail")
 CVE_RE = re.compile(r"^CVE-\d{4}-\d{4,}$")
@@ -106,7 +106,9 @@ def render_readme(text: str, entries: list[dict]) -> str:
 
 
 def render_banner(text: str, n: int) -> str:
-    return re.sub(r'(id="cve-count"[^>]*>)\d+(<)', rf"\g<1>{n}\g<2>", text)
+    text = re.sub(r'(id="cve-count"[^>]*>)\d+(<)', rf"\g<1>{n}\g<2>", text)
+    # Keep the accessible description consistent with the visible counter.
+    return re.sub(r"\d+ published CVEs", f"{n} published CVEs", text)
 
 
 def main() -> None:
