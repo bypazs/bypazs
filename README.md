@@ -41,24 +41,6 @@ A small, inspectable example of Python automation and GitHub Actions: CVE record
 - **Evidence:** [renderer](scripts/render.py) · [CVE data](data/cves.yml) · [workflow](.github/workflows/update-profile.yml).
 - **Scope:** profile maintenance automation; my broader CI/CD security learning continues below.
 
-### AI Development Template — private · tooling and workflow design
-
-A reusable starter kit for AI-assisted development, with documented implementation/review responsibilities, task handoffs, security checks and stack-specific guidance.
-
-- **Implemented in the repository:** workflow documents, a staged bootstrap script that preserves existing files, and a structural verification script.
-- **Design focus:** keeping changes reviewable and adapting the template to each project's existing rules.
-- **Status:** private toolkit; v0.3 orchestration guidance is a proposal. Adoption and validation are tracked separately for each project.
-
-### AI Bug Bounty Hunter — private · planning
-
-A personal security research tooling project for authorized bug bounty work and open-source research in disposable, owned labs.
-
-- **Designed so far:** authorization boundaries, benchmark-based tool selection and a human review workflow.
-- **Next milestone:** evaluate candidate tools against a reproducible lab benchmark before choosing the implementation.
-- **Status:** planning / Week 1. A working scanner and validated research results are future milestones.
-
-Private project summaries describe their current scope and status; they do not provide publicly inspectable implementation evidence.
-
 ---
 
 ## Security Research
