@@ -39,13 +39,13 @@ I'm building a DevSecOps portfolio project around a small FastAPI service. It in
 
 - **Current focus:** validating the CI pipelines, the GitHub-to-GitLab mirror, and the deployment examples.
 
-### Profile Automation — public
+### AppSec Patch Management — in development
 
-A small, inspectable example of Python automation and GitHub Actions: CVE records in YAML generate the research tables and counters in this profile.
+An application security platform that tracks vulnerabilities through remediation and verifies which environments are running the patched build. I'm developing it privately and plan to make it available to users in the future.
 
-- **Implemented:** data validation, generated Markdown and SVG counters, a CI freshness check, and Markdown linting.
-- **Evidence:** [renderer](scripts/render.py) · [CVE data](data/cves.yml) · [workflow](.github/workflows/update-profile.yml).
-- **Scope:** profile maintenance automation; my broader CI/CD security learning continues below.
+### Cyber Abyss — hobby project
+
+A cybersecurity-themed tactical roguelite RPG I'm prototyping in Godot 4. It's a hobby project where I experiment with turn-based squad combat and browser game development.
 
 ---
 
@@ -113,14 +113,13 @@ Primary credentials: **OSCP · eWPTX**.
 | **Hands-on labs & small projects** | Git · Docker fundamentals · GitHub Actions; experiments with NodeJSScan, Bandit, Trivy, SonarQube and OWASP ZAP |
 | **Currently learning / planned** | GitLab CI/CD · Kubernetes · Terraform · cloud security, including AWS |
 
-Lab experience is separate from production infrastructure ownership. Project links above show the work that is publicly inspectable.
+Lab experience is separate from production infrastructure ownership.
 
 ---
 
 ## 🗺️ Roadmap: Pentest → DevSecOps
 
 - [x] Offensive security foundation — professional assessments, OSCP and eWPTX
-- [x] Python automation — data-driven profile generation with a CI freshness check
 - [ ] Containers — Docker hardening and repeatable image scanning
 - [ ] CI/CD security — a documented pipeline with SAST, DAST and secret scanning
 - [ ] Kubernetes — workload security, RBAC and admission policies
