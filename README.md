@@ -33,6 +33,12 @@ I'm moving toward **DevSecOps**, bringing an attacker's perspective into secure 
 
 ## 🛠️ Featured Projects
 
+### [Secure Delivery Platform](https://github.com/bypazs/secure-delivery-platform) — in progress
+
+I'm building a DevSecOps portfolio project around a small FastAPI service. It includes GitHub Actions and GitLab CI configurations for pytest, Bandit, and pip-audit, plus a Dockerfile and a Helm chart.
+
+- **Current focus:** validating the CI pipelines, the GitHub-to-GitLab mirror, and the deployment examples.
+
 ### Profile Automation — public
 
 A small, inspectable example of Python automation and GitHub Actions: CVE records in YAML generate the research tables and counters in this profile.
